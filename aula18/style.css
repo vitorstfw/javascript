@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+* {
+   margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(60, 60, 246);
+font: normal 16px Arial, sans-serif;
+}
+
+header{
+color: white;
+text-align: center;
+font-size: 1.8em;
+margin: 10px;
+}
+
+section{
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.501);
+}
+
+select#flista{
+width: 150px;
+}
+
+footer{
+padding: 20px;
+color: white;
+text-align: center;
+font-style: italic;
+}
