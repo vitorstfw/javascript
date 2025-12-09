@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>sistemas para pais</h1>
-    digite o nome do pais:<input type="text" name="txtpais" id="txtpais">
+    <label for="txtpais">digite o nome do pais:</label> <input type="text" name="txtpais" id="txtpais">
+
     <input type="button" value="verificar" onclick="calcular()">
     <div id="res">  
     </div>
@@ -15,7 +16,7 @@
 function calcular(){
 var txtpais = window.document.getElementById('txtpais')
 var res = window.document.querySelector('div#res')
-var pais = String(txtpais.value).toLowerCase() 
+var pais = String(txtpais.value.toLowerCase())
 res.innerHTML =`<p>Vivendo em <strong>${pais}</strong><p>`
 if (pais == 'brasil') {
     res.innerHTML += `<p>Você é <strong>Brasileiro!</strong></p>`
