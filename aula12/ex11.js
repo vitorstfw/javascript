@@ -1,4 +1,4 @@
-var idade = 17
+var idade = 12
 console.log(`voce tem ${idade} anos`)
 if (idade < 16) {
 console.log('nao vota')
